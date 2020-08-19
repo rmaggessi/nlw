@@ -116,7 +116,7 @@
     cursor: pointer;
     font: 700 1.4rem Archivo;
 
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
 
@@ -126,7 +126,7 @@
     margin-left:1.6rem;
 }
 
-.teacher-item footer button:hover{
+.teacher-item footer .button:hover{
     background: var(--color-secondary-dark);
 }
 
@@ -199,7 +199,7 @@
         justify-content: center;
     }
 
-    .teacher-item footer button img{
+    .teacher-item footer .button img{
         margin-right: 16px;
     }
 }
