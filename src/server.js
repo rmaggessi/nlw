@@ -70,6 +70,13 @@ function pageStudy(req, res){
 }
 
 function pageGiveClasses(req, res){
+    const dados = req.query
+
+    console.log(dados)
+    //adicionar dados a lista de proffys
+
+
+
     return res.render("give-classes.html", { subjects, weekdays })
 }
 
