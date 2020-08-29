@@ -20,12 +20,12 @@ Database.then(async(db) =>{
     classScheduleValues = [
         //class_id virá pelo banco de dados, após cadastrarmos a aula
         {
-            weedkay: 1,
+            weekday: 1,
             time_from: 720,
             time_to: 1220
         },
         {
-            weedkay: 0,
+            weekday: 0,
             time_from: 520,
             time_to: 1220
         }
