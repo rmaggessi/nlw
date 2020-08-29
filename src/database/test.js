@@ -1,9 +1,10 @@
 const Database = require('./db')
+const createProffy = require ('./createProffy')
+
 
 Database.then((db) =>{
     //Inserir dados
-
-    proffy = {
+     proffyValue = {
         name: "Diego Fernandes",
         avatar: "https://avatars2.githubusercontent.com/u/2254731?s=460&amp;u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&amp;v=4",
         whatsapp: "1199502341",
@@ -16,7 +17,7 @@ Database.then((db) =>{
         //o proffy id virá pelo banco de dados
     }
 
-    classSchedule = [
+    classScheduleValue = [
         //class_id virá pelo banco de dados, após cadastrarmos a aula
         {
             weedkay: 1,
@@ -30,5 +31,7 @@ Database.then((db) =>{
         }
     ]
     
+    //createProffy(db, {proffyValue, classValue, classScheduleValue})
+
     //Consultar os dados inseridos
 })
